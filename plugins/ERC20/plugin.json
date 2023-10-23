@@ -1,5 +1,6 @@
 {
   "name": "ERC-20 Token",
+  "defaultDisplayName": "ERC-20 #N",
   "description": "ERC-20 standard admin mintable token.",
   "owner": "PACMON",
   "url": "https://pacmon.suijin.xyz"

@@ -1,4 +1,4 @@
-name: "PacERC20"
+contractName: "PacERC20"
 constructor:
   - "Test PAC Token"
   - "tPAC"
@@ -18,4 +18,4 @@ manage:
       arguments:
         - address
         - uint256
-output: "TPAC_ERC20"
+output: "ERC20_1"
