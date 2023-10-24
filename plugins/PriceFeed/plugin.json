@@ -1,0 +1,7 @@
+{
+  "name": "Price Feed",
+  "defaultDisplayName": "TOKENA Price Feed",
+  "description": "Price Feed using Chainlink's AggregatorV3Interface.",
+  "owner": "PACMON",
+  "url": "https://pacmon.suijin.xyz"
+}

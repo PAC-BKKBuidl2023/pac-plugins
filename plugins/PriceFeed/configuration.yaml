@@ -1,0 +1,12 @@
+contractName: "PacPriceFeed"
+constructor:
+functions:
+  - name: setLatestAnswer
+    arguments:
+      - 1000000000 # 10 USD
+manage:
+  functions:
+    - name: setLatestAnswer
+      arguments:
+        - uint256
+output: "PRICEFEED"
