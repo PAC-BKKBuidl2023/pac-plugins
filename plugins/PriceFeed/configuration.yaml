@@ -1,5 +1,7 @@
 contractName: "PacPriceFeed"
 constructor:
+  - BTC/USD
+  - 8
 functions:
   - name: setLatestAnswer
     arguments:
