@@ -18,4 +18,4 @@ manage:
       arguments:
         - address
         - uint256
-output: "ERC20_1"
+output: "ERC20"
