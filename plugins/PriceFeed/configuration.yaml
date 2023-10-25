@@ -10,5 +10,6 @@ manage:
   functions:
     - name: setLatestAnswer
       arguments:
-        - uint256
+        - name: answer (decimals 8)
+          type: uint256
 output: "PRICEFEED"

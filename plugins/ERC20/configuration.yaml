@@ -12,10 +12,14 @@ manage:
   functions:
     - name: mint
       arguments:
-        - address
-        - uint256
+        - name: to
+          type: address
+        - name: amount
+          type: uint256
     - name: transfer
       arguments:
-        - address
-        - uint256
+        - name: to
+          type: address
+        - name: amount
+          type: uint256
 output: "ERC20"
