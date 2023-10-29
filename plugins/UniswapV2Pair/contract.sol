@@ -133,7 +133,7 @@ interface IPacUniswapV2Pair is IUniswapV2Pair {
 // Original license: SPDX_License_Identifier: MIT
 // OpenZeppelin Contracts (last updated v5.0.0) (token/ERC20/IERC20.sol)
 
-pragma solidity ^0.8.20;
+pragma solidity ^0.8.19;
 
 /**
  * @dev Interface of the ERC20 standard as defined in the EIP.
@@ -255,7 +255,7 @@ interface IUniswapV2Callee {
 
 // Original license: SPDX_License_Identifier: MIT
 
-pragma solidity =0.8.20;
+pragma solidity =0.8.19;
 
 // a library for performing various math operations
 
@@ -283,7 +283,7 @@ library Math {
 
 // Original license: SPDX_License_Identifier: MIT
 
-pragma solidity =0.8.20;
+pragma solidity =0.8.19;
 
 // a library for handling binary fixed point numbers (https://en.wikipedia.org/wiki/Q_(number_format))
 
@@ -308,7 +308,7 @@ library UQ112x112 {
 
 // Original license: SPDX_License_Identifier: MIT
 
-pragma solidity =0.8.20;
+pragma solidity =0.8.19;
 
 //solhint-disable var-name-mixedcase
 //solhint-disable reason-string
@@ -433,7 +433,7 @@ contract UniswapV2ERC20 is IUniswapV2ERC20 {
 
 // Original license: SPDX_License_Identifier: MIT
 
-pragma solidity =0.8.20;
+pragma solidity =0.8.19;
 
 //solhint-disable func-name-mixedcase
 //solhint-disable avoid-low-level-calls

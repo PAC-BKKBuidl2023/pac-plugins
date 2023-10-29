@@ -43,7 +43,7 @@ interface AggregatorV3Interface {
 
 // Original license: SPDX_License_Identifier: MIT
 
-pragma solidity 0.8.20;
+pragma solidity 0.8.19;
 
 contract PacPriceFeed is AggregatorV3Interface {
     int256 public answer;

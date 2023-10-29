@@ -6,7 +6,7 @@
 
 // Original license: SPDX_License_Identifier: MIT
 // OpenZeppelin Contracts (last updated v5.0.0) (interfaces/draft-IERC6093.sol)
-pragma solidity ^0.8.20;
+pragma solidity ^0.8.19;
 
 /**
  * @dev Standard ERC20 Errors
@@ -184,7 +184,7 @@ interface IERC1155Errors {
 // Original license: SPDX_License_Identifier: MIT
 // OpenZeppelin Contracts (last updated v5.0.0) (token/ERC20/IERC20.sol)
 
-pragma solidity ^0.8.20;
+pragma solidity ^0.8.19;
 
 /**
  * @dev Interface of the ERC20 standard as defined in the EIP.
@@ -277,7 +277,7 @@ interface IERC20 {
 // Original license: SPDX_License_Identifier: MIT
 // OpenZeppelin Contracts (last updated v5.0.0) (token/ERC20/extensions/IERC20Metadata.sol)
 
-pragma solidity ^0.8.20;
+pragma solidity ^0.8.19;
 
 /**
  * @dev Interface for the optional metadata functions from the ERC20 standard.
@@ -304,7 +304,7 @@ interface IERC20Metadata is IERC20 {
 // Original license: SPDX_License_Identifier: MIT
 // OpenZeppelin Contracts (last updated v5.0.0) (utils/Context.sol)
 
-pragma solidity ^0.8.20;
+pragma solidity ^0.8.19;
 
 /**
  * @dev Provides information about the current execution context, including the
@@ -331,7 +331,7 @@ abstract contract Context {
 // Original license: SPDX_License_Identifier: MIT
 // OpenZeppelin Contracts (last updated v5.0.0) (token/ERC20/ERC20.sol)
 
-pragma solidity ^0.8.20;
+pragma solidity ^0.8.19;
 
 /**
  * @dev Implementation of the {IERC20} interface.
@@ -683,7 +683,7 @@ interface IPacERC20 {
 
 // Original license: SPDX_License_Identifier: UNLICENSED
 
-pragma solidity =0.8.20;
+pragma solidity =0.8.19;
 
 contract PacERC20 is ERC20, IPacERC20 {
     uint8 private immutable __decimals;
