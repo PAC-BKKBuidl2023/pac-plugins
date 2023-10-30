@@ -1,0 +1,19 @@
+contractName: "PacBandStdReferenceProxy"
+constructor:
+functions:
+  - name: setRate
+    arguments:
+      - BTC
+      - USDC
+      - 35000000000000000000000
+manage:
+  functions:
+    - name: setRate
+      arguments:
+        - name: base
+          type: string
+        - name: quote
+          type: string
+        - name: rate
+          type: uint256
+output: "BAND_ORACLE"
